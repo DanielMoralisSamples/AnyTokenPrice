@@ -1,0 +1,5 @@
+venv
+.env
+docs
+swagger_client
+test
