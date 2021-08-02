@@ -3,3 +3,4 @@ venv
 docs
 swagger_client
 test
+__pycache__
