@@ -4,4 +4,4 @@ docs
 swagger_client
 test
 __pycache__
-
+.DS_Store
