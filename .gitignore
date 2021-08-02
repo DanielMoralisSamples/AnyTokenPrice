@@ -3,5 +3,5 @@ venv
 docs
 swagger_client
 test
-./app/__pycache__/*/*
+__pycache__
 
