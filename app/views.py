@@ -12,7 +12,7 @@ def index():
 @app.route("/request-price", methods=["POST"])
 def request_price():
     req = request.get_json()
-    response = moralis_query(req["erc20_address"],'eth','mainnet') #CHAINS - eth, bsc, polygon; CHAINNAME - for this project use mainnet
+    response = moralis_query(req["erc20_address"],'','') #CHAINS - eth, bsc, polygon; CHAINNAME - for this project use mainnet
     res = make_response(response, 200)
     return res
 
